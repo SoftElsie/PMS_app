@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "1Oek9kIhFLT0v+P+E18rydHpAujFngqtQCMkU1YRNGE=",
+  "Source": "PMS_app.Server",
+  "BasePath": "_content/PMS_app.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\murangi.vhengani\\Desktop\\Pms\\PMS_app\\pms_app.client\\pms_app.client.esproj",
+      "Version": 2,
+      "Source": "pms_app.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
