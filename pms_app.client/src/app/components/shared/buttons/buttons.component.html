@@ -1,0 +1,28 @@
+<button
+  [ngClass]="[
+    variant,
+    size,
+    selected ? 'selected' : '',
+    disabled ? 'disabled' : '',
+    darkMode ? 'dark-mode' : '',
+    isHovered ? 'hover' : ''
+  ]"
+  [disabled]="disabled"
+  (mouseenter)="isHovered = true"
+  (mouseleave)="isHovered = false"
+  [attr.aria-selected]="selected"
+  [attr.aria-disabled]="disabled"
+>
+  {{ label }}
+  <span *ngIf="selected" class="checkmark">&#10003;</span>
+</button>
+
+<!-- use example -->
+<!-- <buttons
+  label="Click Me"
+  variant="primary"
+  size="xs"
+  [disabled]="false"
+  [selected]="false"
+>
+</buttons> -->
