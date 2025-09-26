@@ -1,0 +1,113 @@
+/* Base button */
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Disabled state */
+button.disabled,
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: #ccc;
+  color: #666;
+}
+
+/*PRIMARY Stylings */
+button.primary {
+  background-color: #1a3c3c;
+  color: white;
+  border: 1px solid #1a3c3c;
+}
+button.primary:hover:not(.disabled) {
+  background-color: #2a4c4c;
+  border-color: #2a4c4c;
+}
+button.primary.selected {
+  border: 2px solid #1a3c3c;
+  background-color: #133333;
+}
+
+/* Dark mode primary */
+.dark-mode button.primary {
+  background-color: #444;
+  color: white;
+  border: 1px solid #666;
+}
+.dark-mode button.primary:hover:not(.disabled) {
+  background-color: #555;
+  border-color: #777;
+}
+
+/*Secondary styling*/
+button.secondary {
+  background-color: transparent;
+  color: #1a3c3c;
+  border: 1px solid #1a3c3c;
+}
+button.secondary:hover:not(.disabled) {
+  background-color: #e0e0e0;
+}
+button.secondary.selected {
+  border: 2px solid #1a3c3c;
+  background-color: #f0f0f0;
+}
+
+/* Dark mode secondary */
+.dark-mode button.secondary {
+  background-color: transparent;
+  color: #bbb;
+  border: 1px solid #bbb;
+}
+.dark-mode button.secondary:hover:not(.disabled) {
+  background-color: #FCECDC;
+}
+.dark-mode button.secondary.selected {
+  border: 2px solid #bbb;
+  background-color: #333;
+}
+
+/* SIZES */
+button.xl {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  min-width: 150px;
+}
+
+button.lg {
+  font-size: 1.1rem;
+  padding: 0.8rem 1.5rem;
+  min-width: 130px;
+}
+
+button.md {
+  font-size: 1rem;
+  padding: 0.6rem 1.2rem;
+  min-width: 110px;
+}
+
+button.sm {
+  font-size: 0.9rem;
+  padding: 0.4rem 1rem;
+  min-width: 90px;
+}
+
+button.xs {
+  font-size: 0.8rem;
+  padding: 0.3rem 0.8rem;
+  min-width: 70px;
+}
+
+/* checkmark*/
+.checkmark {
+  margin-right: 8px;
+  font-size: 1em;
+  color: #fff;
+}
