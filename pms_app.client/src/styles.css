@@ -1,30 +1,3 @@
-/* You can add global styles to this file, and also import other style files */
-/* You can add global styles to this file, and also import other style files */
-:root {
-  --color-primary-900: #304D47;
-  --color-primary-600: #59716C;
-  --color-primary-300: #839491;
-  --color-primary-200: #C1CAC8;
-  --color-primary-100: #EAEDED;
-  --color-primary-neutral-00: #FFFFFF;
-
-  --color-secondary-900: #C18140;
-  --color-secondary-600: #F2A250;
-  --color-secondary-300: #F7C796;
-  --color-secondary-200: #FADAB9;
-  --color-secondary-100: #FCECDC;
-  --color-secondary-00: #FEF6ED;
-
-  --color-neutral-900: #292828;
-  --color-neutral-600: #7F7E7E;
-  --color-neutral-300: #BFBEBE;
-  --color-neutral-100: #EAE9E9;
-
-  --color-feedback-danger: #C14B40;
-  --color-feedback-success: #6CAE6E;
-  --color-feedback-info: #41B4B8;
-}
-
 .palette-section {
   margin-bottom: 2rem;
 }
