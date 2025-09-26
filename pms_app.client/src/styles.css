@@ -1,1 +1,210 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --color-primary-900: #304D47;
+  --color-primary-600: #59716C;
+  --color-primary-300: #839491;
+  --color-primary-200: #C1CAC8;
+  --color-primary-100: #EAEDED;
+  --color-primary-neutral-00: #FFFFFF;
+
+  --color-secondary-900: #C18140;
+  --color-secondary-600: #F2A250;
+  --color-secondary-300: #F7C796;
+  --color-secondary-200: #FADAB9;
+  --color-secondary-100: #FCECDC;
+  --color-secondary-00: #FEF6ED;
+
+  --color-neutral-900: #292828;
+  --color-neutral-600: #7F7E7E;
+  --color-neutral-300: #BFBEBE;
+  --color-neutral-100: #EAE9E9;
+
+  --color-feedback-danger: #C14B40;
+  --color-feedback-success: #6CAE6E;
+  --color-feedback-info: #41B4B8;
+}
+
+.palette-section {
+  margin-bottom: 2rem;
+}
+
+.palette-section h2 {
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+
+}
+
+.color-row {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.color-card {
+  width: 150px;
+  text-align: left;
+  font-size: 12px;
+  color: #333;
+}
+
+.swatch {
+  width: 100%;
+  height: 80px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  border: 1px solid #ddd;
+}
+
+/* Color utility classes */
+.text-color-primary-900 {
+  color: var(--color-primary-900);
+}
+
+.bg-color-primary-900 {
+  background-color: var(--color-primary-900);
+}
+
+.text-color-primary-600 {
+  color: var(--color-primary-600);
+}
+
+.bg-color-primary-600 {
+  background-color: var(--color-primary-600);
+}
+
+.text-color-primary-300 {
+  color: var(--color-primary-300);
+}
+
+.bg-color-primary-300 {
+  background-color: var(--color-primary-300);
+}
+
+.text-color-primary-200 {
+  color: var(--color-primary-200);
+}
+
+.bg-color-primary-200 {
+  background-color: var(--color-primary-200);
+}
+
+.text-color-primary-100 {
+  color: var(--color-primary-100);
+}
+
+.bg-color-primary-100 {
+  background-color: var(--color-primary-100);
+}
+
+.text-color-primary-neutral-00 {
+  color: var(--color-primary-neutral-00);
+}
+
+.bg-color-primary-neutral-00 {
+  background-color: var(--color-primary-neutral-00);
+}
+
+.text-color-secondary-900 {
+  color: var(--color-secondary-900);
+}
+
+.bg-color-secondary-900 {
+  background-color: var(--color-secondary-900);
+}
+
+.text-color-secondary-600 {
+  color: var(--color-secondary-600);
+}
+
+.bg-color-secondary-600 {
+  background-color: var(--color-secondary-600);
+}
+
+.text-color-secondary-300 {
+  color: var(--color-secondary-300);
+}
+
+.bg-color-secondary-300 {
+  background-color: var(--color-secondary-300);
+}
+
+.text-color-secondary-200 {
+  color: var(--color-secondary-200);
+}
+
+.bg-color-secondary-200 {
+  background-color: var(--color-secondary-200);
+}
+
+.text-color-secondary-100 {
+  color: var(--color-secondary-100);
+}
+
+.bg-color-secondary-100 {
+  background-color: var(--color-secondary-100);
+}
+
+.text-color-secondary-00 {
+  color: var(--color-secondary-00);
+}
+
+.bg-color-secondary-00 {
+  background-color: var(--color-secondary-00);
+}
+
+.text-color-neutral-900 {
+  color: var(--color-neutral-900);
+}
+
+.bg-color-neutral-900 {
+  background-color: var(--color-neutral-900);
+}
+
+.text-color-neutral-600 {
+  color: var(--color-neutral-600);
+}
+
+.bg-color-neutral-600 {
+  background-color: var(--color-neutral-600);
+}
+
+.text-color-neutral-300 {
+  color: var(--color-neutral-300);
+}
+
+.bg-color-neutral-300 {
+  background-color: var(--color-neutral-300);
+}
+
+.text-color-neutral-100 {
+  color: var(--color-neutral-100);
+}
+
+.bg-color-neutral-100 {
+  background-color: var(--color-neutral-100);
+}
+
+.text-color-feedback-danger {
+  color: var(--color-feedback-danger);
+}
+
+.bg-color-feedback-danger {
+  background-color: var(--color-feedback-danger);
+}
+
+.text-color-feedback-success {
+  color: var(--color-feedback-success);
+}
+
+.bg-color-feedback-success {
+  background-color: var(--color-feedback-success);
+}
+
+.text-color-feedback-info {
+  color: var(--color-feedback-info);
+}
+
+.bg-color-feedback-info {
+  background-color: var(--color-feedback-info);
+}
