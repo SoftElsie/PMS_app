@@ -1,1 +1,183 @@
-/* You can add global styles to this file, and also import other style files */
+.palette-section {
+  margin-bottom: 2rem;
+}
+
+.palette-section h2 {
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+
+}
+
+.color-row {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.color-card {
+  width: 150px;
+  text-align: left;
+  font-size: 12px;
+  color: #333;
+}
+
+.swatch {
+  width: 100%;
+  height: 80px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  border: 1px solid #ddd;
+}
+
+/* Color utility classes */
+.text-color-primary-900 {
+  color: var(--color-primary-900);
+}
+
+.bg-color-primary-900 {
+  background-color: var(--color-primary-900);
+}
+
+.text-color-primary-600 {
+  color: var(--color-primary-600);
+}
+
+.bg-color-primary-600 {
+  background-color: var(--color-primary-600);
+}
+
+.text-color-primary-300 {
+  color: var(--color-primary-300);
+}
+
+.bg-color-primary-300 {
+  background-color: var(--color-primary-300);
+}
+
+.text-color-primary-200 {
+  color: var(--color-primary-200);
+}
+
+.bg-color-primary-200 {
+  background-color: var(--color-primary-200);
+}
+
+.text-color-primary-100 {
+  color: var(--color-primary-100);
+}
+
+.bg-color-primary-100 {
+  background-color: var(--color-primary-100);
+}
+
+.text-color-primary-neutral-00 {
+  color: var(--color-primary-neutral-00);
+}
+
+.bg-color-primary-neutral-00 {
+  background-color: var(--color-primary-neutral-00);
+}
+
+.text-color-secondary-900 {
+  color: var(--color-secondary-900);
+}
+
+.bg-color-secondary-900 {
+  background-color: var(--color-secondary-900);
+}
+
+.text-color-secondary-600 {
+  color: var(--color-secondary-600);
+}
+
+.bg-color-secondary-600 {
+  background-color: var(--color-secondary-600);
+}
+
+.text-color-secondary-300 {
+  color: var(--color-secondary-300);
+}
+
+.bg-color-secondary-300 {
+  background-color: var(--color-secondary-300);
+}
+
+.text-color-secondary-200 {
+  color: var(--color-secondary-200);
+}
+
+.bg-color-secondary-200 {
+  background-color: var(--color-secondary-200);
+}
+
+.text-color-secondary-100 {
+  color: var(--color-secondary-100);
+}
+
+.bg-color-secondary-100 {
+  background-color: var(--color-secondary-100);
+}
+
+.text-color-secondary-00 {
+  color: var(--color-secondary-00);
+}
+
+.bg-color-secondary-00 {
+  background-color: var(--color-secondary-00);
+}
+
+.text-color-neutral-900 {
+  color: var(--color-neutral-900);
+}
+
+.bg-color-neutral-900 {
+  background-color: var(--color-neutral-900);
+}
+
+.text-color-neutral-600 {
+  color: var(--color-neutral-600);
+}
+
+.bg-color-neutral-600 {
+  background-color: var(--color-neutral-600);
+}
+
+.text-color-neutral-300 {
+  color: var(--color-neutral-300);
+}
+
+.bg-color-neutral-300 {
+  background-color: var(--color-neutral-300);
+}
+
+.text-color-neutral-100 {
+  color: var(--color-neutral-100);
+}
+
+.bg-color-neutral-100 {
+  background-color: var(--color-neutral-100);
+}
+
+.text-color-feedback-danger {
+  color: var(--color-feedback-danger);
+}
+
+.bg-color-feedback-danger {
+  background-color: var(--color-feedback-danger);
+}
+
+.text-color-feedback-success {
+  color: var(--color-feedback-success);
+}
+
+.bg-color-feedback-success {
+  background-color: var(--color-feedback-success);
+}
+
+.text-color-feedback-info {
+  color: var(--color-feedback-info);
+}
+
+.bg-color-feedback-info {
+  background-color: var(--color-feedback-info);
+}
