@@ -1,0 +1,27 @@
+<div class="input-container dropdown-input" [ngClass]="state">
+  <label *ngIf="label" class="input-label">{{ label }}</label>
+  <div
+    class="dropdown-wrapper"
+    (click)="toggleOptions()"
+    (blur)="showOptions = false"
+  >
+    <input
+      class="input-field"
+      [value]="value || placeholder || 'Select one...'"
+      [disabled]="disabled"
+      readonly
+      (focus)="state = 'focus'"
+      (mouseenter)="state = 'hover'"
+      (mouseleave)="state = 'default'"
+    />
+    <div class="dropdown-options" *ngIf="showOptions">
+      <div
+        *ngFor="let option of options"
+        (click)="value = option; showOptions = false"
+      >
+        {{ option }}
+      </div>
+    </div>
+  </div>
+  <span class="helper-text" *ngIf="helperText">{{ helperText }}</span>
+</div>

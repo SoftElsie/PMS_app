@@ -1,0 +1,16 @@
+<!-- src/app/components/search-input/search-input.component.html -->
+<div class="input-container search-input" [ngClass]="state">
+  <label *ngIf="label" class="input-label">{{ label }}</label>
+  <input
+    type="search"
+    class="input-field"
+    [placeholder]="placeholder"
+    [value]="value"
+    [disabled]="disabled"
+    (focus)="state = 'focus'"
+    (blur)="state = 'default'"
+    (mouseenter)="state = 'hover'"
+    (mouseleave)="state = 'default'"
+  />
+  <span class="helper-text" *ngIf="helperText">{{ helperText }}</span>
+</div>
