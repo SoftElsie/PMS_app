@@ -1,0 +1,56 @@
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  font-family: sans-serif;
+}
+
+.left .logo {
+  height: 32px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}
+
+.post-button {
+    text-decoration: hide;
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+  padding: 0;
+  height: 32px;
+  width: 100px; /* Adjusted to fit the image and text */
+}
+
+.post-button img {
+  height: 32px;
+  width: auto;
+}
+
+.post-button::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+  margin-left: 20px;
+}
+
+.profile {
+  border-radius: 50%;
+}
