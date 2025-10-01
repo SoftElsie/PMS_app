@@ -1,34 +1,29 @@
 <button
-  [ngClass]="[
-    variant,
-    size,
-    selected ? 'selected' : '',
-    disabled ? 'disabled' : '',
-    darkMode ? 'dark-mode' : '',
-    isHovered ? 'hover' : ''
-  ]"
+  [ngClass]="[variant, size, disabled ? 'disabled' : '']"
   [disabled]="disabled"
-  (mouseenter)="isHovered = true"
-  (mouseleave)="isHovered = false"
-  [attr.aria-selected]="selected"
-  [attr.aria-disabled]="disabled"
 >
   {{ label }}
-  <span *ngIf="selected" class="checkmark">&#10003;</span>
 </button>
 
-<!-- use example
+<!-- Usage Example:
+
 <div>
-  <buttons label="Extra Large" variant="primary" size="xl" [disabled]="false" [selected]="false"></buttons>
-  <buttons label="Large" variant="primary" size="lg" [disabled]="false" [selected]="false"></buttons>
-  <buttons label="Medium" variant="primary" size="md" [disabled]="false" [selected]="false"></buttons>
-  <buttons label="Small" variant="primary" size="sm" [disabled]="false" [selected]="false"></buttons>
-  <buttons label="Extra Small" variant="primary" size="xs" [disabled]="false" [selected]="false"></buttons>
+  <app-button label="Extra Large" variant="primary" size="xl"></app-button>
+  <app-button label="Large" variant="primary" size="lg"></app-button>
+  <app-button label="Medium" variant="primary" size="md"></app-button>
+  <app-button label="Small" variant="primary" size="sm"></app-button>
+  <app-button label="Extra Small" variant="primary" size="xs"></app-button>
 </div>
+
 <div>
-  <buttons label="Extra Large" variant="secondary" size="xl" [disabled]="false" [selected]="false"></buttons>
-  <buttons label="Large" variant="secondary" size="lg" [disabled]="false" [selected]="false"></buttons>
-  <buttons label="Medium" variant="secondary" size="md" [disabled]="false" [selected]="false"></buttons>
-  <buttons label="Small" variant="secondary" size="sm" [disabled]="false" [selected]="false"></buttons>
-  <buttons label="Extra Small" variant="secondary" size="xs" [disabled]="false" [selected]="false"></buttons>
-</div> -->
+  <app-button label="Extra Large" variant="secondary" size="xl"></app-button>
+  <app-button label="Large" variant="secondary" size="lg"></app-button>
+  <app-button label="Medium" variant="secondary" size="md"></app-button>
+  <app-button label="Small" variant="secondary" size="sm"></app-button>
+  <app-button label="Extra Small" variant="secondary" size="xs"></app-button>
+</div>
+
+<div>
+  <app-button label="Disabled Large" variant="primary" size="lg" [disabled]="true"></app-button>
+</div>
+ -->

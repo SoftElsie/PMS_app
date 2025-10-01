@@ -181,3 +181,118 @@
 .bg-color-feedback-info {
   background-color: var(--color-feedback-info);
 }
+
+
+/* Base button */
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Disabled state */
+button.disabled,
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: #ccc;
+  color: #666;
+}
+
+/* primary buttons */
+button.primary {
+  background-color: #1a3c3c;
+  color: white;
+  border: 1px solid #1a3c3c;
+}
+button.primary:hover:not(.disabled) {
+  background-color: #2e5555;
+  border-color: #2e5555;
+}
+button.primary.selected {
+  border: 2px solid #1a3c3c;
+  background-color: #133333;
+}
+
+/* Dark mode primary */
+.dark-mode button.primary {
+  background-color: #444;
+  color: white;
+  border: 1px solid #666;
+}
+.dark-mode button.primary:hover:not(.disabled) {
+  background-color: #666;
+  border-color: #777;
+}
+
+/* secondary buttons*/
+button.secondary {
+  background-color: transparent;
+  color: #1a3c3c;
+  border: 1px solid #1a3c3c;
+}
+button.secondary:hover:not(.disabled) {
+  background-color: #f5f0e7;
+}
+button.secondary.selected {
+  border: 2px solid #1a3c3c;
+  background-color: #f0f0f0;
+}
+
+/* Dark mode secondary */
+.dark-mode button.secondary {
+  background-color: transparent;
+  color: #bbb;
+  border: 1px solid #bbb;
+}
+.dark-mode button.secondary:hover:not(.disabled) {
+  background-color: #555;
+}
+.dark-mode button.secondary.selected {
+  border: 2px solid #bbb;
+  background-color: #333;
+}
+
+/* sizes*/
+button.xl {
+  font-size: 1.2rem;
+  padding: 0.8rem 1.5rem;
+  min-width: 120px;
+}
+
+button.lg {
+  font-size: 1.0rem;
+  padding: 0.6rem 1.2rem;
+  min-width: 100px;
+}
+
+button.md {
+  font-size: 0.9rem;
+  padding: 0.4rem 1.0rem;
+  min-width: 80px;
+}
+
+button.sm {
+  font-size: 0.7rem;
+  padding: 0.3rem 0.8rem;
+  min-width: 60px;
+}
+
+button.xs {
+  font-size: 0.5rem;
+  padding: 0.1rem 0.3rem;
+  min-width: 40px;
+}
+
+/* Checkmark or loader */
+.checkmark {
+  margin-right: 8px;
+  font-size: 1em;
+  color: #fff;
+}
