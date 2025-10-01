@@ -181,3 +181,84 @@
 .bg-color-feedback-info {
   background-color: var(--color-feedback-info);
 }
+
+/*Font size, line height, letter spacing*/
+
+.font-size_72px {
+  font-size: 72px;
+  line-height: 110%;
+  letter-spacing: -2px;
+}
+
+.font-size_64px {
+  font-size: 64px;
+  line-height: 110%;
+  letter-spacing: -2px;
+}
+
+.font-size_52px{
+  font-size: 52px;
+  line-height: 110%;
+  letter-spacing: -2px;
+}
+
+.font-size_48px{
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: -2px;
+}
+
+.font-size_40px {
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: -2px;
+}
+
+.font-size_32px {
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: -1px;
+}
+
+.font-size_24px {
+  font-size: 24px;
+  line-height: 130%;
+  letter-spacing: -1px;
+}
+
+.font-size_20px{
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+}
+
+.font-size_20px{
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -0.4px;
+}
+
+.font-size_18px{
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: -0.3px;
+}
+
+.font-size_16px{
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.3px;
+}
+
+.font-size_16px {
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.3px;
+}
+
+.font-size_14px {
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: -0.3px;
+}
+
