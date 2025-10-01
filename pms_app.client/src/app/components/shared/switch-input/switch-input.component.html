@@ -1,0 +1,16 @@
+<!-- src/app/components/switch-input/switch-input.component.html -->
+<div class="input-container switch-input" [ngClass]="state">
+  <label *ngIf="label" class="input-label">{{ label }}</label>
+  <div class="switch-wrapper">
+    <label class="switch-toggle">
+      <input
+        type="checkbox"
+        [checked]="checked"
+        [disabled]="disabled"
+        (change)="checked = !checked"
+      />
+      <span class="slider"></span>
+    </label>
+  </div>
+  <span class="helper-text" *ngIf="helperText">{{ helperText }}</span>
+</div>

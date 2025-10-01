@@ -1,0 +1,20 @@
+<!-- src/app/components/select-input/select-input.component.html -->
+<div class="input-container select-input" [ngClass]="state">
+  <label *ngIf="label" class="input-label">{{ label }}</label>
+  <select
+    class="input-field"
+    [disabled]="disabled"
+    (focus)="state = 'focus'"
+    (blur)="state = 'default'"
+    (mouseenter)="state = 'hover'"
+    (mouseleave)="state = 'default'"
+  >
+    <option value="" disabled selected>
+      {{ placeholder || "Select one..." }}
+    </option>
+    <option *ngFor="let option of options" [value]="option">
+      {{ option }}
+    </option>
+  </select>
+  <span class="helper-text" *ngIf="helperText">{{ helperText }}</span>
+</div>

@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { MainModule } from "./components/shared/shared.module";
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
       AppComponent,
     BrowserModule, HttpClientModule,
     AppRoutingModule,
+    MainModule
     RouterModule,
     DashboardComponent
   ],

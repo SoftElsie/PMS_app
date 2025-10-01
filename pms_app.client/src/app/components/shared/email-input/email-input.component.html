@@ -1,0 +1,19 @@
+<div class="input-container email-input" [ngClass]="state">
+  <label *ngIf="label" class="input-label">{{ label }}</label>
+  <input
+    type="email"
+    class="input-field"
+    [placeholder]="placeholder"
+    [value]="value"
+    [disabled]="disabled"
+    (focus)="state = 'focus'"
+    (blur)="state = 'default'"
+    (mouseenter)="state = 'hover'"
+    (mouseleave)="state = 'default'"
+  />
+  <span class="helper-text" *ngIf="helperText">
+    <span class="helper-icon" *ngIf="state === 'success'"></span>
+    <span class="helper-icon" *ngIf="state === 'error'"></span>
+    {{ helperText }}
+  </span>
+</div>

@@ -1,0 +1,15 @@
+<!-- src/app/components/textarea-input/textarea-input.component.html -->
+<div class="input-container" [ngClass]="state">
+  <label *ngIf="label" class="input-label">{{ label }}</label>
+  <textarea
+    class="input-field textarea"
+    [placeholder]="placeholder"
+    [value]="value"
+    [disabled]="disabled"
+    (focus)="state = 'focus'"
+    (blur)="state = 'default'"
+    (mouseenter)="state = 'hover'"
+    (mouseleave)="state = 'default'"
+  ></textarea>
+  <span class="helper-text" *ngIf="helperText">{{ helperText }}</span>
+</div>
