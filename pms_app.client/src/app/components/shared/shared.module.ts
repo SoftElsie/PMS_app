@@ -9,6 +9,7 @@ import { SearchInputComponent } from './search-input/search-input.component';
 import { DatetimeInputComponent } from './datetime-input/datetime-input.component';
 import { SwitchInputComponent } from './switch-input/switch-input.component';
 import { DropdownInputComponent } from './dropdown-input/dropdown-input.component';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { DropdownInputComponent } from './dropdown-input/dropdown-input.componen
     
   ],
   imports: [
+    ButtonComponent,
  CommonModule
  
   ],
