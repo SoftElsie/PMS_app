@@ -1,0 +1,29 @@
+<button
+  [ngClass]="[variant, size, disabled ? 'disabled' : '']"
+  [disabled]="disabled"
+>
+  {{ label }}
+</button>
+
+<!-- Usage Example:
+
+<div>
+  <app-button label="Extra Large" variant="primary" size="xl"></app-button>
+  <app-button label="Large" variant="primary" size="lg"></app-button>
+  <app-button label="Medium" variant="primary" size="md"></app-button>
+  <app-button label="Small" variant="primary" size="sm"></app-button>
+  <app-button label="Extra Small" variant="primary" size="xs"></app-button>
+</div>
+
+<div>
+  <app-button label="Extra Large" variant="secondary" size="xl"></app-button>
+  <app-button label="Large" variant="secondary" size="lg"></app-button>
+  <app-button label="Medium" variant="secondary" size="md"></app-button>
+  <app-button label="Small" variant="secondary" size="sm"></app-button>
+  <app-button label="Extra Small" variant="secondary" size="xs"></app-button>
+</div>
+
+<div>
+  <app-button label="Disabled Large" variant="primary" size="lg" [disabled]="true"></app-button>
+</div>
+ -->

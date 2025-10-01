@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { MainModule } from "./components/shared/shared.module";
+import { ButtonComponent } from './components/shared/button/button.component';
 
 @NgModule({
   declarations: [
@@ -15,9 +16,11 @@ import { MainModule } from "./components/shared/shared.module";
       AppComponent,
     BrowserModule, HttpClientModule,
     AppRoutingModule,
-    MainModule
+    MainModule,
     RouterModule,
-    DashboardComponent
+    DashboardComponent,
+    ButtonComponent
+
   ],
   providers: [],
   bootstrap: [AppComponent]
