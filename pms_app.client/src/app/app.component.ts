@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { ButtonComponent } from './components/shared/button/button.component';
+import { TopNavComponent } from "./components/shared/core/top-nav/top-nav.component";
 
 interface WeatherForecast {
   date: string;
@@ -14,7 +15,7 @@ interface WeatherForecast {
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  imports: [RouterOutlet,ButtonComponent],
+  imports: [RouterOutlet, ButtonComponent, TopNavComponent],
 })
 export class AppComponent implements OnInit {
   public forecasts: WeatherForecast[] = [];
